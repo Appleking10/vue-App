@@ -22,6 +22,7 @@ const routes = [
 ];
 // 创建router实例
 const router = new VueRouter({
+  linkActiveClass: 'active',
   routes
 });
 
@@ -30,7 +31,7 @@ const router = new VueRouter({
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App },
+  components: {App},
   router
 });
 
