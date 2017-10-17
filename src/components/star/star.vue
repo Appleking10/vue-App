@@ -25,7 +25,7 @@
                 return 'star-' + this.size;
             },
             itemClasses() {
-                console.log(this.score);
+                // console.log(this.score);
                 let result = [];
                 let score = Math.floor(this.score * 2) / 2; // 将评分计算，不是整数就是带有0.5
                 let hasDecimal = score % 1 !== 0; // 判断是否有小数，是否是半星
