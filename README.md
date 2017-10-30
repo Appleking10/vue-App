@@ -34,3 +34,4 @@
 >> + 在菜单<li>中添加click事件，传入index和$event，使用better-scroll的scrollToElement接口去实行跳转
 ---
 + shopcard+cartcontrol组件的构建
+>+ + 价格计算基于foodselect[]
